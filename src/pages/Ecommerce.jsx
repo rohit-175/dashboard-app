@@ -1,13 +1,13 @@
 import React from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
-import { GoPrimitiveDot } from 'react-icons/go';
-//import { IoIosMore } from 'react-icons/io';
-//import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
+import { GoDot } from 'react-icons/go';
+import { IoIosMore } from 'react-icons/io';
+import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
 import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
-//import product9 from '../data/product9.jpg';
+import product9 from '../data/product9.jpg';
 
 const DropDown = ({ currentMode }) => (
   <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
@@ -73,13 +73,13 @@ const Ecommerce = () => {
             <div className="flex items-center gap-4">
               <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
                 <span>
-                  <GoPrimitiveDot />
+                  <GoDot />
                 </span>
                 <span>Expense</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
                 <span>
-                  <GoPrimitiveDot />
+                  <GoDot />
                 </span>
                 <span>Budget</span>
               </p>
